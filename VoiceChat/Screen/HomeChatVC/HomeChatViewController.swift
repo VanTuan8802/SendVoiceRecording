@@ -1,0 +1,53 @@
+//
+//  HomeChatViewController.swift
+//  VoiceChat
+//
+//  Created by Moon Dev on 19/02/2024.
+//
+
+import UIKit
+import FirebaseAuth
+
+class HomeChatViewController: UIViewController {
+    
+    @IBOutlet weak var homeChatTableView: UITableView!
+    
+    private var listGroupChat :[GroupChat] = []
+    private let uid = Auth.auth().currentUser?.uid
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        setupTableView()
+    }
+    
+    private func setupTableView() {
+        homeChatTableView.delegate = self
+        homeChatTableView.dataSource = self
+        homeChatTableView.register(UINib(nibName: HomeChatTableViewCell.id, bundle: nil), forCellReuseIdentifier: HomeChatTableViewCell.id)
+        homeChatTableView.separatorStyle = .none
+        homeChatTableView.showsHorizontalScrollIndicator = true
+    }
+}
+
+extension HomeChatViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 72.0
+    }
+}
+
+extension HomeChatViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return listGroupChat.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: HomeChatTableViewCell.id, for: indexPath) as! HomeChatTableViewCell
+        if let uid = uid {
+            cell.bindChat(index: indexPath.row, groupChat: listGroupChat[indexPath.row], uid: uid)
+        }
+       
+        return cell
+    }
+    
+}
