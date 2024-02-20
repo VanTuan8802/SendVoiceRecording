@@ -26,16 +26,16 @@ class HomeChatTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func bindChat(index: Int, groupChat: GroupChat, uid: String) {
-        avatarChat.kf.setImage(with: URL(string: groupChat.avatarGroup))
-        name.text = groupChat.nameGroup
+    func bindChat(index: Int, chatMessage: ChatMessage, uid: String) {
+        avatarChat.kf.setImage(with: URL(string: chatMessage.avatarMatch))
+        name.text = chatMessage.nameMatch
         
-        if uid == groupChat.lastMessage.lastSenderId {
-            message.text = "You: \(groupChat.lastMessage.lastMessage)"
+        if uid == chatMessage.lastMessage.lastSenderId {
+            message.text = "You: \(chatMessage.lastMessage.message)"
         } else {
-            message.text = " \(groupChat.lastMessage.lastSender.components(separatedBy: " ").last ?? " "): \(groupChat.lastMessage.lastMessage) "
+            message.text = " \(chatMessage.lastMessage.message.components(separatedBy: " ").last ?? " "): \(chatMessage.lastMessage.message) "
         }
         
-        timeSend.text = showTimeLastMessage(from: groupChat.lastMessage.lastSentDate.dateValue())
+        timeSend.text = showTimeLastMessage(from: chatMessage.lastMessage.timeSend.dateValue())
     }
 }

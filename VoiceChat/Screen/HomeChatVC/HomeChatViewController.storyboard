@@ -12,21 +12,21 @@
         <!--Home Chat View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="HomeChatViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="HomeChatViewController" customModule="VoiceChat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeChatViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="HomeChatViewController" customModule="VoiceChat" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="NOt-2a-Kkc">
-                                <rect key="frame" x="16" y="179" width="361" height="639"/>
+                                <rect key="frame" x="16" y="107" width="361" height="711"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="NOt-2a-Kkc" secondAttribute="trailing" constant="16" id="5gE-dA-4PB"/>
-                            <constraint firstItem="NOt-2a-Kkc" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="120" id="6Sb-wf-1Md"/>
+                            <constraint firstItem="NOt-2a-Kkc" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="48" id="6Sb-wf-1Md"/>
                             <constraint firstItem="NOt-2a-Kkc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="mMD-ZS-P80"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="NOt-2a-Kkc" secondAttribute="bottom" id="rKd-U8-lWb"/>
                         </constraints>
@@ -43,6 +43,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

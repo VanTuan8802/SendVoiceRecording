@@ -8,17 +8,15 @@
 import Foundation
 import FirebaseFirestore
 
-struct GroupChat: Codable {
+struct ChatMessage: Codable {
     @DocumentID var id: String?
-    var avatarGroup: String
-    var nameGroup: String
-    var owner: String
-    var lastMessageType: MessageTypes
-    var members: [String]
+    var avatarMatch: String
+    var matchID: String
+    var nameMatch: String
     var lastMessage: LastMessage
 }
 
 enum MessageTypes: String, Codable {
-    case Text = "text"
-    case Photo = "voice"
+    case text = "text"
+    case voice = "voice"
 }

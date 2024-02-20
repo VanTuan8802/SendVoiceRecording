@@ -10,7 +10,8 @@ import FirebaseFirestore
 
 struct LastMessage: Codable {
     var lastSenderId: String
-    var lastSender: String
-    var lastMessage: String
-    var lastSentDate: Timestamp
+    var lastSenderName: String
+    var message: String
+    var lastMessageType: MessageTypes
+    var timeSend: Timestamp
 }

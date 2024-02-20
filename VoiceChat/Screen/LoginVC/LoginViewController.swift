@@ -17,7 +17,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       
+
     }
 
     @IBAction func loginAction(_ sender: Any) {
@@ -34,9 +34,12 @@ class LoginViewController: UIViewController {
             if let error = error {
                 print(error)
             } else {
-                print("Login success")
+                let storyboard = UIStoryboard(name: HomeChatViewController.id, bundle: nil)
+                let homevc = storyboard.instantiateViewController(withIdentifier: HomeChatViewController.id) as! HomeChatViewController
+                let nav = UINavigationController(rootViewController: homevc)
+                nav.modalPresentationStyle = .fullScreen
+                self.present(nav, animated: true)
             }
         }
     }
-    
 }
