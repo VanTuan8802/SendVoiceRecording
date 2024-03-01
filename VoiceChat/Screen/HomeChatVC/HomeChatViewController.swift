@@ -46,6 +46,16 @@ extension HomeChatViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 72.0
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: MessageViewController.id, bundle: nil)
+        let homevc = storyboard.instantiateViewController(withIdentifier: MessageViewController.id) as! MessageViewController
+        homevc.chatId = listGroupChat[indexPath.row].id ?? ""
+        homevc.matchId = listGroupChat[indexPath.row].matchID
+        let nav = UINavigationController(rootViewController: homevc)
+        nav.modalPresentationStyle = .fullScreen
+        self.present(nav, animated: true)
+    }
 }
 
 extension HomeChatViewController: UITableViewDataSource {

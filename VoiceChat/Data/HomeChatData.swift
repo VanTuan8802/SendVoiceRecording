@@ -55,25 +55,24 @@ class HomeChatData {
                      return
                  }
                  
-                 guard let ChatMessageIds = snapshot?.documents,
-                       !ChatMessageIds.isEmpty else {
+                 guard let chatMessageIds = snapshot?.documents,
+                       !chatMessageIds.isEmpty else {
                      completion([], nil)
                      return
                  }
                
                  var chatMessages: [ChatMessage] = []
                  
-                 for ChatMessageId in ChatMessageIds {
-                     self.getItem(uid: uid, id: ChatMessageId.documentID) { chatMessage, error in
+                 for chatMessageId in chatMessageIds {
+                     self.getItem(uid: uid, id: chatMessageId.documentID) { chatMessage, error in
                          if let chatMessage = chatMessage,
                             error == nil {
-                             print(chatMessage)
                              chatMessages.append(chatMessage)
                          } else {
                              completion([], nil)
                          }
 
-                         if chatMessages.count == ChatMessageIds.count {
+                         if chatMessages.count == chatMessageIds.count {
                              completion(chatMessages, nil)
                          }
                      }

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0BDFDE2B9030E20054B563 /* nguoilaoi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E0BDFDD2B9030E20054B563 /* nguoilaoi.mp3 */; };
+		0E0BDFE32B908B6A0054B563 /* SenderSentImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BDFE12B908B6A0054B563 /* SenderSentImageTableViewCell.swift */; };
+		0E0BDFE42B908B6A0054B563 /* SenderSentImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0BDFE22B908B6A0054B563 /* SenderSentImageTableViewCell.xib */; };
+		0E0BDFE72B908B7F0054B563 /* NoSenderSentImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BDFE52B908B7F0054B563 /* NoSenderSentImageTableViewCell.swift */; };
+		0E0BDFE82B908B7F0054B563 /* NoSenderSentImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0BDFE62B908B7F0054B563 /* NoSenderSentImageTableViewCell.xib */; };
 		0E0DF8A52B834D79002DC464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8A42B834D79002DC464 /* AppDelegate.swift */; };
 		0E0DF8A72B834D79002DC464 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8A62B834D79002DC464 /* SceneDelegate.swift */; };
 		0E0DF8AE2B834D7A002DC464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0DF8AD2B834D7A002DC464 /* Assets.xcassets */; };
@@ -25,10 +30,29 @@
 		0E0DF8DB2B844A44002DC464 /* HomeChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8DA2B844A44002DC464 /* HomeChatData.swift */; };
 		0E0DF8DE2B845ADF002DC464 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8DD2B845ADE002DC464 /* Constants.swift */; };
 		0E0DF8E02B8491DC002DC464 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8DF2B8491DC002DC464 /* User.swift */; };
+		0E0DF8E32B849CBF002DC464 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8E22B849CBF002DC464 /* MessageViewController.swift */; };
+		0E0DF8E52B849CCA002DC464 /* MessageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0DF8E42B849CCA002DC464 /* MessageViewController.storyboard */; };
+		0E0DF8ED2B84A0BB002DC464 /* NoSenderTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8EB2B84A0BB002DC464 /* NoSenderTextTableViewCell.swift */; };
+		0E0DF8EE2B84A0BB002DC464 /* NoSenderTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0DF8EC2B84A0BB002DC464 /* NoSenderTextTableViewCell.xib */; };
+		0E0DF8F12B84A0D2002DC464 /* NoSenderVoidTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8EF2B84A0D2002DC464 /* NoSenderVoidTableViewCell.swift */; };
+		0E0DF8F22B84A0D2002DC464 /* NoSenderVoidTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0DF8F02B84A0D2002DC464 /* NoSenderVoidTableViewCell.xib */; };
+		0E0DF8F52B84A126002DC464 /* SenderVoiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8F32B84A126002DC464 /* SenderVoiceTableViewCell.swift */; };
+		0E0DF8F62B84A126002DC464 /* SenderVoiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0DF8F42B84A126002DC464 /* SenderVoiceTableViewCell.xib */; };
+		0E0DF8F92B84A133002DC464 /* SenderTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8F72B84A133002DC464 /* SenderTextTableViewCell.swift */; };
+		0E0DF8FA2B84A133002DC464 /* SenderTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0DF8F82B84A133002DC464 /* SenderTextTableViewCell.xib */; };
+		0E0DF8FC2B85D8A4002DC464 /* MessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8FB2B85D8A4002DC464 /* MessageData.swift */; };
+		0E0DF8FE2B85D942002DC464 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8FD2B85D942002DC464 /* Message.swift */; };
+		0E0DF9002B85E6E3002DC464 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF8FF2B85E6E3002DC464 /* UserData.swift */; };
+		0E0DF9022B8702CA002DC464 /* RunVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF9012B8702CA002DC464 /* RunVoice.swift */; };
 		74A5583829CA50C82CC2BB77 /* Pods_VoiceChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF129ADB4D0F503CFA4074C /* Pods_VoiceChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0BDFDD2B9030E20054B563 /* nguoilaoi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nguoilaoi.mp3; sourceTree = "<group>"; };
+		0E0BDFE12B908B6A0054B563 /* SenderSentImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderSentImageTableViewCell.swift; sourceTree = "<group>"; };
+		0E0BDFE22B908B6A0054B563 /* SenderSentImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderSentImageTableViewCell.xib; sourceTree = "<group>"; };
+		0E0BDFE52B908B7F0054B563 /* NoSenderSentImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSenderSentImageTableViewCell.swift; sourceTree = "<group>"; };
+		0E0BDFE62B908B7F0054B563 /* NoSenderSentImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoSenderSentImageTableViewCell.xib; sourceTree = "<group>"; };
 		0E0DF8A12B834D79002DC464 /* VoiceChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0DF8A42B834D79002DC464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E0DF8A62B834D79002DC464 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +73,20 @@
 		0E0DF8DA2B844A44002DC464 /* HomeChatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChatData.swift; sourceTree = "<group>"; };
 		0E0DF8DD2B845ADE002DC464 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0E0DF8DF2B8491DC002DC464 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0E0DF8E22B849CBF002DC464 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		0E0DF8E42B849CCA002DC464 /* MessageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MessageViewController.storyboard; sourceTree = "<group>"; };
+		0E0DF8EB2B84A0BB002DC464 /* NoSenderTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSenderTextTableViewCell.swift; sourceTree = "<group>"; };
+		0E0DF8EC2B84A0BB002DC464 /* NoSenderTextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoSenderTextTableViewCell.xib; sourceTree = "<group>"; };
+		0E0DF8EF2B84A0D2002DC464 /* NoSenderVoidTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSenderVoidTableViewCell.swift; sourceTree = "<group>"; };
+		0E0DF8F02B84A0D2002DC464 /* NoSenderVoidTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoSenderVoidTableViewCell.xib; sourceTree = "<group>"; };
+		0E0DF8F32B84A126002DC464 /* SenderVoiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderVoiceTableViewCell.swift; sourceTree = "<group>"; };
+		0E0DF8F42B84A126002DC464 /* SenderVoiceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderVoiceTableViewCell.xib; sourceTree = "<group>"; };
+		0E0DF8F72B84A133002DC464 /* SenderTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderTextTableViewCell.swift; sourceTree = "<group>"; };
+		0E0DF8F82B84A133002DC464 /* SenderTextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderTextTableViewCell.xib; sourceTree = "<group>"; };
+		0E0DF8FB2B85D8A4002DC464 /* MessageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageData.swift; sourceTree = "<group>"; };
+		0E0DF8FD2B85D942002DC464 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		0E0DF8FF2B85E6E3002DC464 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		0E0DF9012B8702CA002DC464 /* RunVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunVoice.swift; sourceTree = "<group>"; };
 		4EFA6E5C74175410619110C9 /* Pods-VoiceChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceChat.release.xcconfig"; path = "Target Support Files/Pods-VoiceChat/Pods-VoiceChat.release.xcconfig"; sourceTree = "<group>"; };
 		9992AC213D9400CF3ED45E74 /* Pods-VoiceChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceChat.debug.xcconfig"; path = "Target Support Files/Pods-VoiceChat/Pods-VoiceChat.debug.xcconfig"; sourceTree = "<group>"; };
 		9CF129ADB4D0F503CFA4074C /* Pods_VoiceChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +104,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0BDFDF2B908B290054B563 /* SenderSentImage */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BDFE12B908B6A0054B563 /* SenderSentImageTableViewCell.swift */,
+				0E0BDFE22B908B6A0054B563 /* SenderSentImageTableViewCell.xib */,
+			);
+			path = SenderSentImage;
+			sourceTree = "<group>";
+		};
+		0E0BDFE02B908B430054B563 /* NoSenderSendImage */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BDFE52B908B7F0054B563 /* NoSenderSentImageTableViewCell.swift */,
+				0E0BDFE62B908B7F0054B563 /* NoSenderSentImageTableViewCell.xib */,
+			);
+			path = NoSenderSendImage;
+			sourceTree = "<group>";
+		};
 		0E0DF8982B834D79002DC464 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +131,7 @@
 				C265C802D66AC96C89D473CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 		0E0DF8A22B834D79002DC464 /* Products */ = {
 			isa = PBXGroup;
@@ -94,6 +151,7 @@
 				0E0DF8BA2B8351B6002DC464 /* Screen */,
 				0E0DF8A42B834D79002DC464 /* AppDelegate.swift */,
 				0E0DF8A62B834D79002DC464 /* SceneDelegate.swift */,
+				0E0BDFDD2B9030E20054B563 /* nguoilaoi.mp3 */,
 				0E0DF8AD2B834D7A002DC464 /* Assets.xcassets */,
 				0E0DF8B82B8350E3002DC464 /* GoogleService-Info.plist */,
 				0E0DF8AF2B834D7A002DC464 /* LaunchScreen.storyboard */,
@@ -107,6 +165,7 @@
 			children = (
 				0E0DF8C02B835ACA002DC464 /* LoginVC */,
 				0E0DF8C52B83602C002DC464 /* HomeChatVC */,
+				0E0DF8E12B849C8E002DC464 /* Message */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -146,6 +205,7 @@
 				0E0DF8D22B836620002DC464 /* ChatMessage.swift */,
 				0E0DF8D72B836862002DC464 /* NSObject.swift */,
 				0E0DF8DF2B8491DC002DC464 /* User.swift */,
+				0E0DF8FD2B85D942002DC464 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				0E0DF8D52B836697002DC464 /* ShowTime.swift */,
+				0E0DF9012B8702CA002DC464 /* RunVoice.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -162,6 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				0E0DF8DA2B844A44002DC464 /* HomeChatData.swift */,
+				0E0DF8FB2B85D8A4002DC464 /* MessageData.swift */,
+				0E0DF8FF2B85E6E3002DC464 /* UserData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -172,6 +235,65 @@
 				0E0DF8DD2B845ADE002DC464 /* Constants.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		0E0DF8E12B849C8E002DC464 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				0E0DF8E62B849DC7002DC464 /* MessageCell */,
+				0E0DF8E22B849CBF002DC464 /* MessageViewController.swift */,
+				0E0DF8E42B849CCA002DC464 /* MessageViewController.storyboard */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		0E0DF8E62B849DC7002DC464 /* MessageCell */ = {
+			isa = PBXGroup;
+			children = (
+				0E0BDFE02B908B430054B563 /* NoSenderSendImage */,
+				0E0DF8EA2B849E33002DC464 /* NoSenderSentText */,
+				0E0DF8E92B849E0A002DC464 /* NoSenderSentVoid */,
+				0E0BDFDF2B908B290054B563 /* SenderSentImage */,
+				0E0DF8E82B849DFF002DC464 /* SenderSentVoid */,
+				0E0DF8E72B849DD2002DC464 /* SenderSentText */,
+			);
+			path = MessageCell;
+			sourceTree = "<group>";
+		};
+		0E0DF8E72B849DD2002DC464 /* SenderSentText */ = {
+			isa = PBXGroup;
+			children = (
+				0E0DF8F72B84A133002DC464 /* SenderTextTableViewCell.swift */,
+				0E0DF8F82B84A133002DC464 /* SenderTextTableViewCell.xib */,
+			);
+			path = SenderSentText;
+			sourceTree = "<group>";
+		};
+		0E0DF8E82B849DFF002DC464 /* SenderSentVoid */ = {
+			isa = PBXGroup;
+			children = (
+				0E0DF8F32B84A126002DC464 /* SenderVoiceTableViewCell.swift */,
+				0E0DF8F42B84A126002DC464 /* SenderVoiceTableViewCell.xib */,
+			);
+			path = SenderSentVoid;
+			sourceTree = "<group>";
+		};
+		0E0DF8E92B849E0A002DC464 /* NoSenderSentVoid */ = {
+			isa = PBXGroup;
+			children = (
+				0E0DF8EF2B84A0D2002DC464 /* NoSenderVoidTableViewCell.swift */,
+				0E0DF8F02B84A0D2002DC464 /* NoSenderVoidTableViewCell.xib */,
+			);
+			path = NoSenderSentVoid;
+			sourceTree = "<group>";
+		};
+		0E0DF8EA2B849E33002DC464 /* NoSenderSentText */ = {
+			isa = PBXGroup;
+			children = (
+				0E0DF8EB2B84A0BB002DC464 /* NoSenderTextTableViewCell.swift */,
+				0E0DF8EC2B84A0BB002DC464 /* NoSenderTextTableViewCell.xib */,
+			);
+			path = NoSenderSentText;
 			sourceTree = "<group>";
 		};
 		A8CCDD21E94B94052267548B /* Pods */ = {
@@ -252,10 +374,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E0DF8B12B834D7A002DC464 /* LaunchScreen.storyboard in Resources */,
+				0E0BDFE42B908B6A0054B563 /* SenderSentImageTableViewCell.xib in Resources */,
 				0E0DF8C92B836057002DC464 /* HomeChatViewController.storyboard in Resources */,
+				0E0DF8E52B849CCA002DC464 /* MessageViewController.storyboard in Resources */,
+				0E0DF8FA2B84A133002DC464 /* SenderTextTableViewCell.xib in Resources */,
 				0E0DF8CE2B836148002DC464 /* HomeChatTableViewCell.xib in Resources */,
+				0E0DF8F22B84A0D2002DC464 /* NoSenderVoidTableViewCell.xib in Resources */,
+				0E0DF8EE2B84A0BB002DC464 /* NoSenderTextTableViewCell.xib in Resources */,
 				0E0DF8C42B835B46002DC464 /* LoginViewController.storyboard in Resources */,
+				0E0DF8F62B84A126002DC464 /* SenderVoiceTableViewCell.xib in Resources */,
 				0E0DF8B92B8350E3002DC464 /* GoogleService-Info.plist in Resources */,
+				0E0BDFE82B908B7F0054B563 /* NoSenderSentImageTableViewCell.xib in Resources */,
+				0E0BDFDE2B9030E20054B563 /* nguoilaoi.mp3 in Resources */,
 				0E0DF8AE2B834D7A002DC464 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,17 +439,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0DF8ED2B84A0BB002DC464 /* NoSenderTextTableViewCell.swift in Sources */,
 				0E0DF8C22B835B32002DC464 /* LoginViewController.swift in Sources */,
+				0E0DF8E32B849CBF002DC464 /* MessageViewController.swift in Sources */,
+				0E0BDFE72B908B7F0054B563 /* NoSenderSentImageTableViewCell.swift in Sources */,
+				0E0DF8F52B84A126002DC464 /* SenderVoiceTableViewCell.swift in Sources */,
+				0E0BDFE32B908B6A0054B563 /* SenderSentImageTableViewCell.swift in Sources */,
 				0E0DF8D62B836697002DC464 /* ShowTime.swift in Sources */,
 				0E0DF8A52B834D79002DC464 /* AppDelegate.swift in Sources */,
 				0E0DF8D82B836862002DC464 /* NSObject.swift in Sources */,
+				0E0DF8FE2B85D942002DC464 /* Message.swift in Sources */,
 				0E0DF8A72B834D79002DC464 /* SceneDelegate.swift in Sources */,
+				0E0DF8F92B84A133002DC464 /* SenderTextTableViewCell.swift in Sources */,
 				0E0DF8D32B836620002DC464 /* ChatMessage.swift in Sources */,
 				0E0DF8DB2B844A44002DC464 /* HomeChatData.swift in Sources */,
 				0E0DF8DE2B845ADF002DC464 /* Constants.swift in Sources */,
+				0E0DF8F12B84A0D2002DC464 /* NoSenderVoidTableViewCell.swift in Sources */,
+				0E0DF8FC2B85D8A4002DC464 /* MessageData.swift in Sources */,
 				0E0DF8E02B8491DC002DC464 /* User.swift in Sources */,
 				0E0DF8D12B83626E002DC464 /* LastMessage.swift in Sources */,
 				0E0DF8C72B83604E002DC464 /* HomeChatViewController.swift in Sources */,
+				0E0DF9002B85E6E3002DC464 /* UserData.swift in Sources */,
+				0E0DF9022B8702CA002DC464 /* RunVoice.swift in Sources */,
 				0E0DF8CD2B836148002DC464 /* HomeChatTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,11 +601,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AUU5RLM92;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VoiceChat/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSVideoSubscriberAccountUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -487,11 +633,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AUU5RLM92;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VoiceChat/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSVideoSubscriberAccountUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
